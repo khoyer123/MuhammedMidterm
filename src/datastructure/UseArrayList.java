@@ -16,13 +16,14 @@ public class UseArrayList {
 
         ArrayList<String> name = new ArrayList<String>();
         LinkedList linkedList = new LinkedList();
-
+        // adding names
         name.add("jakir");
         name.add("jamil");
         name.add("khoyer");
         name.add("hussain");
-        name.add("mike");
+        name.add("Hisham");
         name.add("jason");
+
 
         for (int i = 0; i < name.size(); i++) {
             //System.out.println(name);
