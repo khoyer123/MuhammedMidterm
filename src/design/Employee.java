@@ -24,7 +24,7 @@ public interface Employee {
     void benefitLayout();
 
     //employee vacation
-    void vacationLayout();
+    //void vacationLayout();
 
     //hire new employee
     String newEmployee();

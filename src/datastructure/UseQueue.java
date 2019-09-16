@@ -28,7 +28,7 @@ public class UseQueue {
 
         Iterator iterator = WaitingQueue.iterator();
        // System.out.println(WaitingQueue.peek());
-       // System.out.println(WaitingQueue.poll());
+        System.out.println(WaitingQueue.poll());
 
         System.out.println("*******using for each loop***********");
 
@@ -47,8 +47,8 @@ public class UseQueue {
 
         WaitingQueue.add("Liton");
         int k = 0;
-        while (k< WaitingQueue.size()) {
-            System.out.println(k);
+        while (k< 1) {
+            System.out.print(WaitingQueue);
             k++;
         }
 
