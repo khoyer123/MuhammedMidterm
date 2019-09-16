@@ -13,7 +13,7 @@ public class DetermineLargestWord {
 
 
 
-            static int LongestWordLength(String str)
+           public static int LongestWordLength(String str)
             {
                 String[] words = str.split(" ");
                 int length = 0;
